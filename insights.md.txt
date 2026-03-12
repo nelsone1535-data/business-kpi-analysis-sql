@@ -1,0 +1,17 @@
+# Key Insights
+
+### 1. Profit Margin by Category
+
+Some product categories generate significantly higher profit margins than others. Understanding which categories produce the highest margins can help businesses prioritize inventory and marketing efforts.
+
+### 2. Discount Impact on Profitability
+
+Higher discount levels are associated with lower average profit per order, suggesting that aggressive discounting strategies may reduce overall profitability.
+
+### 3. Transaction Profitability
+
+Individual transactions vary widely in profitability. Classifying transactions as high profit, moderate profit, or loss-making helps identify areas where pricing or discount policies may need adjustment.
+
+### 4. Customer Segment Value
+
+Customer segments contribute differently to total sales and profit. Identifying the most valuable customer segments allows businesses to focus marketing efforts on the most profitable audiences.

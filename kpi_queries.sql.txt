@@ -1,0 +1,64 @@
+-- ==================================================
+-- BUSINESS KPI ANALYSIS
+-- ==================================================
+
+
+
+-- ==================================================
+-- 1. Profit Margin by Category
+-- ==================================================
+
+SELECT
+    category,
+    SUM(sales) AS total_sales,
+    SUM(profit) AS total_profit,
+    ROUND(SUM(profit) / SUM(sales), 2) AS profit_margin
+FROM sales
+GROUP BY category
+ORDER BY profit_margin DESC;
+
+
+
+-- ==================================================
+-- 2. Discount Impact on Profit
+-- ==================================================
+
+SELECT
+    discount,
+    COUNT(*) AS orders,
+    ROUND(AVG(profit),2) AS avg_profit
+FROM sales
+GROUP BY discount
+ORDER BY discount;
+
+
+
+-- ==================================================
+-- 3. Profitability Classification
+-- ==================================================
+
+SELECT
+    category,
+    sales,
+    profit,
+    CASE
+        WHEN profit > 100 THEN 'High Profit'
+        WHEN profit > 0 THEN 'Moderate Profit'
+        ELSE 'Loss'
+    END AS profit_category
+FROM sales;
+
+
+
+-- ==================================================
+-- 4. Customer Segment Performance
+-- ==================================================
+
+SELECT
+    segment,
+    SUM(sales) AS total_sales,
+    SUM(profit) AS total_profit,
+    COUNT(*) AS total_orders
+FROM sales
+GROUP BY segment
+ORDER BY total_profit DESC;

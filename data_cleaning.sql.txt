@@ -1,0 +1,34 @@
+-- ============================================
+-- DATA CLEANING
+-- ============================================
+
+-- Remove rows with missing critical values
+
+SELECT
+    category,
+    sub_category,
+    segment,
+    region,
+    sales,
+    quantity,
+    discount,
+    profit
+FROM sales
+WHERE sales IS NOT NULL
+AND profit IS NOT NULL;
+
+
+
+-- Check for negative profit transactions
+
+SELECT *
+FROM sales
+WHERE profit < 0;
+
+
+
+-- Identify unusually high discounts
+
+SELECT *
+FROM sales
+WHERE discount > 0.5;
