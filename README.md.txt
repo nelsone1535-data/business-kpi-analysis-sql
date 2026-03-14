@@ -1,5 +1,5 @@
 
-## Project Overview
+ Project Overview
 
 This project analyzes retail sales data to evaluate key business performance metrics such as profitability, sales performance, and customer segment value.
 
@@ -14,7 +14,7 @@ The analysis focuses on identifying:
 
 ---
 
-## Tools Used
+ Tools Used
 
 * PostgreSQL
 * SQL
@@ -22,7 +22,7 @@ The analysis focuses on identifying:
 
 ---
 
-## Dataset
+ Dataset
 
 This project uses a retail sales dataset commonly known as the "Superstore Dataset".
 The dataset includes information about:
@@ -36,7 +36,7 @@ The dataset includes information about:
 
 ---
 
-## Business Questions Answered
+ Business Questions Answered
 
 1. What are the profit margins across product categories?
 2. Are discounts negatively impacting profit?
@@ -45,7 +45,7 @@ The dataset includes information about:
 
 ---
 
-## SQL Skills Demonstrated
+ SQL Skills Demonstrated
 
 * Data cleaning
 * Aggregations (`SUM`, `COUNT`)
@@ -56,7 +56,7 @@ The dataset includes information about:
 
 ---
 
-## Project Structure
+ Project Structure
 
 business-kpi-analysis-sql
 
