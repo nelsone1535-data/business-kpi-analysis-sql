@@ -1,13 +1,17 @@
-# Retail Sales Performance Dashboard
+Retail Sales Performance Dashboard
 
-## Project Overview
+Project Overview
 This project analyzes retail sales performance using Power BI.  
 The goal of the dashboard is to help business stakeholders quickly understand sales trends, profitability, and customer segmentation.
 
-## Dashboard Preview
+---
+
+Dashboard Preview
 dashboard.png
 
-## Key Metrics
+---
+
+Key Metrics
 The dashboard tracks several key performance indicators:
 
 - Total Sales
@@ -17,7 +21,9 @@ The dashboard tracks several key performance indicators:
 - Profit vs Discount Relationship
 - Sales by Customer Segment
 
-## Insights
+---
+
+Insights
 Some key findings from the analysis include:
 
 • Consumer customers generate the largest share of revenue.
@@ -28,10 +34,14 @@ Some key findings from the analysis include:
 
 • Certain regions outperform others in total sales.
 
-## Tools Used
+---
+
+Tools Used
 - SQL (data analysis queries)
 - Power BI (dashboard visualization)
 - GitHub (project portfolio)
 
-## Project Purpose
+---
+
+Project Purpose
 This project demonstrates the ability to transform raw sales data into business insights and interactive visualizations using Power BI.
