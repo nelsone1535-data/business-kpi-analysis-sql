@@ -5,7 +5,7 @@ This project analyzes retail sales performance using Power BI.
 The goal of the dashboard is to help business stakeholders quickly understand sales trends, profitability, and customer segmentation.
 
 ## Dashboard Preview
-![Dashboard](dashboard.png)
+dashboard.png
 
 ## Key Metrics
 The dashboard tracks several key performance indicators:
