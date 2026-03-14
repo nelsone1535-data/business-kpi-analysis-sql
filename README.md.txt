@@ -1,4 +1,3 @@
-# Business KPI & Profitability Analysis (SQL)
 
 ## Project Overview
 
@@ -66,3 +65,6 @@ schema.sql
 data_cleaning.sql
 kpi_queries.sql
 insights.md
+Dashboard.README.txt
+dashboard.png
+retail_dashboard.pbix
